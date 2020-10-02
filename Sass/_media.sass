@@ -1,0 +1,232 @@
+@media screen and (max-width: 1024px)
+    #dz-section1 
+        #dz-navigation 
+            .dz-navigation
+                &_navbar
+                    &-nav
+                        &_list
+                            li
+                                a
+                                    font-size: 13px
+        .dz-section1
+            &_slideshow
+                &-list 
+                    li 
+                        .dz-slideshowContent 
+                            p
+                                font-size: 15px
+
+    #dz-section2, #dz-section5, #dz-section6, #dz-section7, #dz-section8, #dz-section9, #dz-section10, #dz-section11, #dz-section12, #dz-section14
+        .dz-section2, .dz-section5, .dz-section6, .dz-section7, .dz-section8, .dz-section9, .dz-section10, .dz-section11, .dz-section12, .dz-section14
+            &_title 
+                p
+                    font-size: 15px
+
+    #dz-section5 
+        .dz-section5
+            &_content
+                &-first, &-last
+                    ul 
+                        li
+                            width: 250px
+                            height: 52px
+                            span
+                                font-size: 12px
+                                &::before
+                                    right: -50px
+                                    top: -8px
+                &-first
+                    ul
+                        li
+                            span
+                                margin-right: 60px
+                &-second
+                    ul
+                        li
+                            span
+                                margin-left: 60px
+
+    #dz-section8 
+        .dz-section8
+            &_content
+                padding: 0px 100px
+
+    #dz-section9 
+        .dz-section9
+            &_content
+                &-grid
+                    &_card
+                        &-content
+                            width: 100%
+                            p
+                                font-size: 12px
+
+    #dz-section10 
+        .dz-section10
+            &_content
+                &-price
+                    &_features 
+                        p
+                            font-size: 14px
+
+    #dz-section12 
+        .dz-section12
+            &_content
+                &-card
+                    &_media 
+                        div
+                            width: 300px
+                    &_content
+                        &-body 
+                            p
+                                font-size: 14px
+
+    #dz-section14 
+        .dz-section14
+            &_content
+                &-form
+                    right: 100px
+
+@media screen and (max-width: 800px)
+    #dz-section1 
+        .dz-section1
+            &_slideshow
+                &-list 
+                    li 
+                        .dz-slideshowContent 
+                            .dz-twoButtons 
+                                a:first-child
+                                    margin-right: 15px
+        #dz-navigation 
+            .dz-navigation
+                &_navbar
+                    &-nav
+                        display: none
+                    &-mobile
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        &_menu
+                            &-list
+                                ul
+                                    list-style: none
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: center
+                                    align-items: center
+                                    padding-left: 0
+                                    padding-top: 50px
+                                    li
+                                        margin-bottom: 20px
+                                        a
+                                            min-height: 70px
+                                            color: #a4a4a4
+                                            font-family: "Raleway-Regular"
+                                            font-size: 18px
+                                            text-transform: uppercase
+                                            transition: .5s
+                                            &:hover
+                                                color: #ffffff
+                        &_icon
+                            margin-top: 8px
+                            border-radius: 10px
+                            display: flex
+                            border: 1px solid rgba(255, 255, 255, 0.5)
+                            justify-content: center
+                            align-items: center
+                            width: 50px
+                            height: 50px
+                            transition: .5s
+                            flex-direction: column
+                            span
+                                width: 60%
+                                height: 2px
+                                background: rgba(255, 255, 255, 0.5)
+                                transition: .5s
+                                margin-bottom: 10px
+                                transition: .5s
+                                &:last-child
+                                    margin-bottom: 0
+                            &:hover
+                                span
+                                    background-color: #ff0036
+
+    #dz-section4 
+        .dz-section4
+            &_content
+                &-nav
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    li
+                        margin-bottom: 10px
+                &-filter
+                    li
+                        img
+                            width: 100%
+
+    #dz-section5
+        .dz-section5
+            &_content
+                display: block
+                &-first
+                    ul
+                        top: 0
+                &-second
+                    a
+                        left: 26%
+                &-last
+                    ul
+                        left: 0
+                        top: 0
+                        padding-left: 40px
+
+    #dz-section6
+        .dz-section6
+            &_content
+                &-last
+                    text-align: center
+
+    #dz-section9 
+        .dz-section9
+            &_content
+                &-grid
+                    &_card
+                        &-content
+                            p
+                                font-size: 10px
+
+    #dz-section12
+        .dz-section12
+            &_content
+                &-card
+                    padding-left: 0
+                    &_media
+                        div
+                            width: 350px
+                            height: 200px
+                            left: -90%
+                    &:hover
+                        .dz-section12_content-card_media
+                            div
+                                left: 7%
+
+    #dz-section13
+        .dz-section13
+            &_content
+                padding: 0
+
+    #dz-section14 
+        .dz-section14
+            &_content
+                &-form
+                    display: none
+
+    #dz-section15 
+        .dz-section15 
+            span
+                display: block
+                right: 0
+                position: unset
+                text-align: center
+                margin-top: 50px
